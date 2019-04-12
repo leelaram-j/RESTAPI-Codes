@@ -11,12 +11,9 @@ public class BasicsGet
     @Test
     public void restGetRequest()
     {
-        //https://maps.googleapis.com/maps/api/place/findplacefromtext/json?
-        // key=AIzaSyAygcCVbYIkH3X-UCHOfY-YRsEqClkwz9Y &input=Art Museum India
-        // &inputtype=textquery&fields=formatted_address,geometry,icon,id,name,photos,user_ratings_total
         RestAssured.baseURI="https://maps.googleapis.com";
         given()
-                .param("key","AIzaSyAygcCVbYIkH3X-UCHOfY-YRsEqClkwz9Y")
+                .param("key","xxxxxxxxxpppppxxxxxxxxxx") // enter actual key here
                 .param("input","Art Museum India")
                 .param("inputtype","textquery")
                 .param("fields","formatted_address,geometry,icon,id,name,photos,user_ratings_total")
