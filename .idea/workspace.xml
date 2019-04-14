@@ -2,9 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ca6ea4d6-df25-420b-ab3c-c2ebbbdbf9b2" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/postXMLDemo.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/rest/test/convertingHashMap2Json.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/rest/test/getRequestIteratingJson.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/rest/test/postXMLDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/rest/test/test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/reusable/methods/ReusableMethods.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BasicsGet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BasicsGet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/RestAssuredDemo/BasicsExtractResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/RestAssuredDemo/BasicsGet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/RestAssuredDemo/BasicsPost.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BasicsExtractResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/rest/test/BasicsExtractResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BasicsGet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/rest/test/BasicsGet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BasicsPost.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/rest/test/BasicsPost.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,10 +28,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="BasicsPost.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/BasicsPost.java">
+        <entry file="file://$PROJECT_DIR$/src/com/rest/test/BasicsPost.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="405">
-              <caret line="27" column="28" lean-forward="true" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
+              <caret line="27" column="28" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -29,10 +40,10 @@
         </entry>
       </file>
       <file leaf-file-name="BasicsExtractResponse.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/BasicsExtractResponse.java">
+        <entry file="file://$PROJECT_DIR$/src/com/rest/test/BasicsExtractResponse.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="47" column="43" selection-start-line="47" selection-start-column="43" selection-end-line="47" selection-end-column="43" />
+            <state relative-caret-position="555">
+              <caret line="37" column="52" lean-forward="true" selection-start-line="36" selection-start-column="16" selection-end-line="37" selection-end-column="52" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -40,11 +51,56 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BasicsGet.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/BasicsGet.java">
+      <file leaf-file-name="getRequestIteratingJson.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/rest/test/getRequestIteratingJson.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="81" selection-start-line="15" selection-start-column="81" selection-end-line="15" selection-end-column="81" />
+            <state relative-caret-position="255">
+              <caret line="17" column="119" selection-start-line="17" selection-start-column="119" selection-end-line="17" selection-end-column="119" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/rest/test/test.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="convertingHashMap2Json.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/rest/test/convertingHashMap2Json.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="630">
+              <caret line="42" column="30" lean-forward="true" selection-start-line="18" selection-start-column="8" selection-end-line="42" selection-end-column="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="env.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/env.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="39" selection-start-column="39" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ReusableMethods.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/reusable/methods/ReusableMethods.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -70,7 +126,16 @@
         <option value="$PROJECT_DIR$/src/Basics.java" />
         <option value="$PROJECT_DIR$/src/BasicsPost.java" />
         <option value="$PROJECT_DIR$/src/BasicsExtractResponse.java" />
+        <option value="$PROJECT_DIR$/Resources/postXMLDemo.xml" />
+        <option value="$PROJECT_DIR$/src/postXMLDemo.java" />
         <option value="$PROJECT_DIR$/src/BasicsGet.java" />
+        <option value="$PROJECT_DIR$/src/getRequestIteratingJson.java" />
+        <option value="$PROJECT_DIR$/src/com/reusable/methods/ReusableMethods.java" />
+        <option value="$PROJECT_DIR$/src/com/rest/test/getRequestIteratingJson.java" />
+        <option value="$PROJECT_DIR$/env.properties" />
+        <option value="$PROJECT_DIR$/src/com/rest/test/test.java" />
+        <option value="$PROJECT_DIR$/src/com/rest/test/BasicsExtractResponse.java" />
+        <option value="$PROJECT_DIR$/src/com/rest/test/convertingHashMap2Json.java" />
       </list>
     </option>
   </component>
@@ -95,8 +160,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -107,13 +170,40 @@
             <path>
               <item name="RestAssuredDemo" type="b2602c69:ProjectViewProjectNode" />
               <item name="RestAssuredDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="Resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RestAssuredDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RestAssuredDemo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RestAssuredDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RestAssuredDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RestAssuredDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RestAssuredDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RestAssuredDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RestAssuredDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="methods" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="AndroidView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -124,6 +214,15 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.rest.test" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/com/reusable/methods" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -137,9 +236,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.BasicsExtractResponse.extractResponse (2)">
+  <component name="RunManager" selected="TestNG.convertingHashMap2Json.convertHashMaptoJson">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.rest.test.test" />
+      <module name="RestAssuredDemo" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.rest.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -157,106 +267,20 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="BasicsExtractResponse.extractResponse (1)" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="RestAssuredDemo" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="BasicsExtractResponse" />
-      <option name="METHOD_NAME" value="extractResponse" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <properties />
-      <listeners />
-    </configuration>
-    <configuration name="BasicsExtractResponse.extractResponse (2)" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="RestAssuredDemo" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="BasicsExtractResponse" />
-      <option name="METHOD_NAME" value="extractResponse" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <properties />
-      <listeners />
-    </configuration>
     <configuration name="BasicsExtractResponse.extractResponse" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="RestAssuredDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.rest.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="BasicsExtractResponse" />
+      <option name="PACKAGE_NAME" value="com.rest.test" />
+      <option name="MAIN_CLASS_NAME" value="com.rest.test.BasicsExtractResponse" />
       <option name="METHOD_NAME" value="extractResponse" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <properties />
-      <listeners />
-    </configuration>
-    <configuration name="BasicsGet.restBasics" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="RestAssuredDemo" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="BasicsGet" />
-      <option name="METHOD_NAME" value="restBasics" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <properties />
-      <listeners />
-    </configuration>
-    <configuration name="BasicsPost.putPost" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="RestAssuredDemo" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="BasicsPost" />
-      <option name="METHOD_NAME" value="putPost" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -294,20 +318,124 @@
       <properties />
       <listeners />
     </configuration>
+    <configuration name="convertingHashMap2Json.convertHashMaptoJson" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="RestAssuredDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.rest.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="com.rest.test" />
+      <option name="MAIN_CLASS_NAME" value="com.rest.test.convertingHashMap2Json" />
+      <option name="METHOD_NAME" value="convertHashMaptoJson" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration name="getRequestIteratingJson.restGetRequest (1)" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="RestAssuredDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.rest.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="com.rest.test" />
+      <option name="MAIN_CLASS_NAME" value="com.rest.test.getRequestIteratingJson" />
+      <option name="METHOD_NAME" value="restGetRequest" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration name="getRequestIteratingJson.restGetRequest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="RestAssuredDemo" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="com.rest.test.getRequestIteratingJson" />
+      <option name="METHOD_NAME" value="restGetRequest" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration name="getRequestIteratingJson.restGetRequest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="RestAssuredDemo" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="com.rest.test.getRequestIteratingJson" />
+      <option name="METHOD_NAME" value="restGetRequest" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
     <list>
-      <item itemvalue="TestNG.BasicsGet.restBasics" />
-      <item itemvalue="TestNG.BasicsPost.putPost" />
+      <item itemvalue="TestNG.getRequestIteratingJson.restGetRequest" />
+      <item itemvalue="TestNG.getRequestIteratingJson.restGetRequest (1)" />
       <item itemvalue="TestNG.BasicsExtractResponse.extractResponse" />
-      <item itemvalue="TestNG.BasicsExtractResponse.extractResponse (1)" />
-      <item itemvalue="TestNG.BasicsExtractResponse.extractResponse (2)" />
+      <item itemvalue="Application.test" />
+      <item itemvalue="TestNG.convertingHashMap2Json.convertHashMaptoJson" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.BasicsExtractResponse.extractResponse (2)" />
+        <item itemvalue="TestNG.convertingHashMap2Json.convertHashMaptoJson" />
+        <item itemvalue="Application.test" />
+        <item itemvalue="TestNG.getRequestIteratingJson.restGetRequest" />
+        <item itemvalue="TestNG.getRequestIteratingJson.restGetRequest (1)" />
         <item itemvalue="TestNG.BasicsExtractResponse.extractResponse" />
-        <item itemvalue="TestNG.BasicsExtractResponse.extractResponse (1)" />
-        <item itemvalue="TestNG.BasicsPost.putPost" />
-        <item itemvalue="TestNG.BasicsGet.restBasics" />
       </list>
     </recent_temporary>
   </component>
@@ -323,44 +451,45 @@
       <updated>1554815257875</updated>
       <workItem from="1554815260969" duration="12000" />
       <workItem from="1554815903964" duration="6430000" />
-      <workItem from="1554836408970" duration="1486000" />
+      <workItem from="1554836408970" duration="8308000" />
+      <workItem from="1555180934385" duration="1795000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Basics_restBasics - 2019.04.09 at 21h 04m 50s.xml">
-      <configuration name="Basics.restBasics" configurationId="TestNG" />
+    <history-entry file="postXMLDemo_postXMLDemo - 2019.04.13 at 00h 10m 09s.xml">
+      <configuration name="postXMLDemo.postXMLDemo" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Basics_restBasics - 2019.04.09 at 21h 12m 49s.xml">
-      <configuration name="Basics.restBasics" configurationId="TestNG" />
+    <history-entry file="getRequestIteratingJson_restGetRequest - 2019.04.13 at 11h 40m 24s.xml">
+      <configuration name="getRequestIteratingJson.restGetRequest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Basics_restBasics - 2019.04.09 at 21h 13m 17s.xml">
-      <configuration name="Basics.restBasics" configurationId="TestNG" />
+    <history-entry file="getRequestIteratingJson_restGetRequest_(1) - 2019.04.13 at 11h 40m 49s.xml">
+      <configuration name="getRequestIteratingJson.restGetRequest (1)" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Basics_restBasics - 2019.04.09 at 21h 13m 50s.xml">
-      <configuration name="Basics.restBasics" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="BasicsPost_putPost - 2019.04.09 at 21h 42m 50s.xml">
-      <configuration name="BasicsPost.putPost" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="BasicsExtractResponse_extractResponse - 2019.04.09 at 22h 16m 38s.xml">
+    <history-entry file="BasicsExtractResponse_extractResponse - 2019.04.13 at 11h 54m 50s.xml">
       <configuration name="BasicsExtractResponse.extractResponse" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="BasicsExtractResponse_extractResponse_(1) - 2019.04.09 at 22h 17m 38s.xml">
-      <configuration name="BasicsExtractResponse.extractResponse (1)" configurationId="TestNG" />
+    <history-entry file="getRequestIteratingJson_restGetRequest - 2019.04.13 at 12h 06m 14s.xml">
+      <configuration name="getRequestIteratingJson.restGetRequest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="BasicsExtractResponse_extractResponse - 2019.04.09 at 22h 36m 03s.xml">
-      <configuration name="BasicsExtractResponse.extractResponse" configurationId="TestNG" />
+    <history-entry file="getRequestIteratingJson_restGetRequest - 2019.04.13 at 12h 09m 00s.xml">
+      <configuration name="getRequestIteratingJson.restGetRequest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="BasicsExtractResponse_extractResponse - 2019.04.09 at 22h 36m 36s.xml">
-      <configuration name="BasicsExtractResponse.extractResponse" configurationId="TestNG" />
+    <history-entry file="getRequestIteratingJson_restGetRequest_(1) - 2019.04.13 at 12h 17m 00s.xml">
+      <configuration name="getRequestIteratingJson.restGetRequest (1)" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="BasicsExtractResponse_extractResponse_(2) - 2019.04.09 at 22h 39m 34s.xml">
-      <configuration name="BasicsExtractResponse.extractResponse (2)" configurationId="TestNG" />
+    <history-entry file="getRequestIteratingJson_restGetRequest - 2019.04.13 at 12h 20m 52s.xml">
+      <configuration name="getRequestIteratingJson.restGetRequest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="getRequestIteratingJson_restGetRequest - 2019.04.13 at 12h 21m 57s.xml">
+      <configuration name="getRequestIteratingJson.restGetRequest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="convertingHashMap2Json_convertHashMaptoJson - 2019.04.14 at 20h 49m 23s.xml">
+      <configuration name="convertingHashMap2Json.convertHashMaptoJson" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7928000" />
+    <option name="totallyTimeSpent" value="16545000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -377,6 +506,7 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49928468" weight="0.32969698" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32969698" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
@@ -384,14 +514,13 @@
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32969698" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32969698" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49909583" visible="true" weight="0.25679544" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49909583" visible="true" weight="0.26037195" />
       <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="bottom" id="Find" order="1" />
       <window_info id="Structure" order="1" sideWeight="0.50090414" side_tool="true" weight="0.25679544" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -403,7 +532,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" order="7" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32969698" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -413,7 +542,64 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/BasicsPost.java">
+    <entry file="file://$PROJECT_DIR$/src/com/rest/test/BasicsPost.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="27" column="28" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/rest/test/BasicsExtractResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="47" column="31" selection-start-line="47" selection-start-column="31" selection-end-line="47" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/rest/test/getRequestIteratingJson.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="17" column="119" selection-start-line="17" selection-start-column="119" selection-end-line="17" selection-end-column="119" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/env.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="39" selection-start-column="39" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/reusable/methods/ReusableMethods.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/rest/test/test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/rest/test/BasicsPost.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="28" selection-start-column="28" selection-end-column="28" />
@@ -423,7 +609,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/BasicsGet.java">
+    <entry file="file://$PROJECT_DIR$/src/com/rest/test/BasicsGet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="38" />
@@ -433,7 +619,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/BasicsExtractResponse.java">
+    <entry file="file://$PROJECT_DIR$/src/com/rest/test/BasicsExtractResponse.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="600">
           <caret line="47" column="43" selection-start-line="47" selection-start-column="43" selection-end-line="47" selection-end-column="43" />
@@ -443,30 +629,95 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/BasicsPost.java">
+    <entry file="file://$PROJECT_DIR$/src/com/rest/test/BasicsGet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="5" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="26" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/rest/test/postXMLDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="24" column="52" selection-start-line="24" selection-start-column="52" selection-end-line="24" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Resources/postXMLDemo.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/reusable/methods/ReusuableMethods.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/reusable/methods/ReusableMethods.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/env.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="39" selection-start-column="39" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/rest/test/BasicsExtractResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="37" column="52" lean-forward="true" selection-start-line="36" selection-start-column="16" selection-end-line="37" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/rest/test/BasicsPost.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
-          <caret line="27" column="28" lean-forward="true" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
+          <caret line="27" column="28" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/BasicsExtractResponse.java">
+    <entry file="file://$PROJECT_DIR$/src/com/rest/test/getRequestIteratingJson.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="47" column="43" selection-start-line="47" selection-start-column="43" selection-end-line="47" selection-end-column="43" />
+        <state relative-caret-position="255">
+          <caret line="17" column="119" selection-start-line="17" selection-start-column="119" selection-end-line="17" selection-end-column="119" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/BasicsGet.java">
+    <entry file="file://$PROJECT_DIR$/src/com/rest/test/convertingHashMap2Json.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="81" selection-start-line="15" selection-start-column="81" selection-end-line="15" selection-end-column="81" />
+        <state relative-caret-position="630">
+          <caret line="42" column="30" lean-forward="true" selection-start-line="18" selection-start-column="8" selection-end-line="42" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/rest/test/test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -548,6 +799,17 @@
         </settings>
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
         <settings>
           <splitter-proportions>
             <option name="proportions">
